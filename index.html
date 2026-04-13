@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opex — Студия красивого тела | Массаж в Москве</title>
+    <meta name="description"
+        content="Opex — эксклюзивная студия массажа. Профессиональные мастера, уютная атмосфера и индивидуальный подход к каждому телу.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="logo.jpg" alt="Opex Logo" id="logo-img">
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#about">О студии</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#masters">Мастера</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="tel:+73512230597" class="phone-link">+7 (351) 223-05-97</a>
+                <button class="btn btn-primary" id="header-booking">Записаться</button>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <ul>
+                <li><a href="#about">О студии</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#masters">Мастера</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-footer">
+            <a href="tel:" class="phone-link">+7 (351) 223-05-97</a>
+            <button class="btn btn-primary">Записаться</button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="reveal-text">Искусство <br><span>прикосновений</span></h1>
+            <p class="reveal-text-slow">Восстановите баланс тела и души в самом сердце города. <br>Эксклюзивные техники
+                массажа в студии Opex.</p>
+            <div class="hero-btns reveal-text-slow">
+                <button class="btn btn-large btn-primary">Выбрать услугу</button>
+                <button class="btn btn-large btn-outline">Смотреть видео</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-image" data-aos="fade-right">
+                <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="Spa Interior">
+                <div class="experience-badge">
+                    <span class="num">10+</span>
+                    <span class="text">Лет опыта</span>
+                </div>
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h2 class="section-title">Философия Opex</h2>
+                <p>Opex (Орех) — это символ природной силы, защиты и ценного ядра. В нашей студии мы верим, что каждое
+                    тело — это драгоценность, требующая бережной «огранки» и заботы.</p>
+                <p>Мы объединили древние традиции Востока и современные инновации Запада, чтобы создать пространство,
+                    где время замирает, а ваше тело начинает дышать заново.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <div class="icon">🌿</div>
+                        <div class="info">
+                            <h3>Натуральные масла</h3>
+                            <p>Используем только органическую косметику премиум-класса.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">🏆</div>
+                        <div class="info">
+                            <h3>Топ-мастера</h3>
+                            <p>Все специалисты имеют медицинское образование и сертификаты международного образца.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title text-center">Наши ритуалы</h2>
+                <p class="section-subtitle text-center">Тщательно подобранные программы для вашего идеального
+                    самочувствия</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Massage">
+                        <div class="service-overlay">
+                            <button class="btn btn-sm btn-light">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <h3>Классический массаж</h3>
+                        <p class="service-price">от 3 500 ₽</p>
+                        <p class="service-desc">Укрепление тонуса мышц и общее оздоровление организма.</p>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Stone Therapy">
+                        <div class="service-overlay">
+                            <button class="btn btn-sm btn-light">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <h3>Стоун-терапия</h3>
+                        <p class="service-price">от 4 500 ₽</p>
+                        <p class="service-desc">Глубокое расслабление с помощью горячих камней вулканических пород.</p>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Lymphatic">
+                        <div class="service-overlay">
+                            <button class="btn btn-sm btn-light">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <h3>Лимфодренаж</h3>
+                        <p class="service-price">от 4 000 ₽</p>
+                        <p class="service-desc">Эффективное избавление от отеков и детоксикация организма.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-cta text-center" data-aos="fade-up">
+                <button class="btn btn-outline">Посмотреть все услуги</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Text -->
+    <div class="marquee">
+        <div class="marquee-content">
+            ✦ RELAX ✦ REJUVENATE ✦ BALANCE ✦ OPEX SPA ✦ RELAX ✦ REJUVENATE ✦ BALANCE ✦ OPEX SPA ✦
+        </div>
+    </div>
+
+    <!-- Masters Section -->
+    <section id="masters" class="masters">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up">Наши мастера</h2>
+            <div class="masters-slider" data-aos="fade-up">
+                <div class="master-card">
+                    <div class="master-img">
+                        <img src="https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=600&q=80"
+                            alt="Master">
+                    </div>
+                    <div class="master-info">
+                        <h3>Елена Иванова</h3>
+                        <span>Топ-мастер, опыт 12 лет</span>
+                    </div>
+                </div>
+                <div class="master-card">
+                    <div class="master-img">
+                        <img src="https://images.unsplash.com/photo-1557683311-eac922347aa1?auto=format&fit=crop&w=600&q=80"
+                            alt="Master">
+                    </div>
+                    <div class="master-info">
+                        <h3>Александра Белова</h3>
+                        <span>Специалист SPA, опыт 8 лет</span>
+                    </div>
+                </div>
+                <div class="master-card">
+                    <div class="master-img">
+                        <img src="https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=600&q=80"
+                            alt="Master">
+                    </div>
+                    <div class="master-info">
+                        <h3>Дмитрий Соколов</h3>
+                        <span>Спортивный массаж, опыт 10 лет</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-banner">
+        <div class="container cta-content" data-aos="zoom-in">
+            <h2>Подарите близким моменты счастья</h2>
+            <p>Приобретите подарочный сертификат на любую сумму или программу онлайн.</p>
+            <button class="btn btn-large btn-light">Перейти к покупке</button>
+        </div>
+    </section>
+
+    <!-- Contacts & Footer -->
+    <footer id="contacts">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <img src="logo.jpg" alt="Opex Logo" class="footer-logo">
+                <div class="socials">
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Telegram</a>
+                    <a href="#" class="social-icon">WhatsApp</a>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h4>Навигация</h4>
+                <ul>
+                    <li><a href="#about">О студии</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#masters">Мастера</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <h4>Контакты</h4>
+                <p>Южная улица, 9А, Челябинск</p>
+                <p><a href="tel:+73512230597">+7 (351) 223-05-97</a></p>
+                <p>Ежедневно: 10:00 — 22:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Opex Studio. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Booking Modal (Simplified) -->
+    <div class="modal" id="booking-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Запись онлайн</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label>Ваше имя</label>
+                    <input type="text" placeholder="Александр" required>
+                </div>
+                <div class="form-group">
+                    <label>Телефон</label>
+                    <input type="tel" placeholder="+7 (___) ___-__-__" required>
+                </div>
+                <div class="form-group">
+                    <label>Услуга</label>
+                    <select>
+                        <option>Классический массаж</option>
+                        <option>Стоун-терапия</option>
+                        <option>Лимфодренаж</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Floating UI -->
+    <div class="floating-cta">
+        <button id="float-booking" aria-label="Book Now">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+                <path fill="currentColor"
+                    d="M19,4H17V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H5A3,3,0,0,0,2,7V19a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7A3,3,0,0,0,19,4Zm1,15a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V12H20Zm0-9H4V7A1,1,0,0,1,5,6H7V7A1,1,0,0,0,9,7V6h6v1a1,1,0,0,0,2,0V6h2a1,1,0,0,1,1,1Z" />
+            </svg>
+            <span>Записаться</span>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
